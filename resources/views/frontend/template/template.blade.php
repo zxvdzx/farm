@@ -14,7 +14,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
-@include ('frontend.template.header')
+@include ('frontend.template.partials.header')
+
+@yield('styles')
+
 <!-- //web-fonts --> 
 </head>
 <body>
@@ -31,29 +34,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a href="index.html"><i class="fa fa-pagelines" aria-hidden="true"></i>Growing</a></h1>
+						<h1><a href="#0"><i class="fa fa-pagelines" aria-hidden="true"></i>Sinergi</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-left"> 
-							<li><a href="index.html" class="w3ls-hover active">Home</a></li>
-							<li><a href="about.html" class="btn w3ls-hover">About</a></li>   
-							<li><a href="gallery.html" class="btn w3ls-hover">Gallery</a></li>
-							<li><a href="#" class="dropdown-toggle btn w3ls-hover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="icons.html">Web Icons</a></li>
-									<li><a href="codes.html">Short Codes</a></li>     
-								</ul>
-							</li>  
-							<li><a href="contact.html" class="btn w3ls-hover">Contact</a></li>
-						</ul>	   
-						<div class="social-icon">
-							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
-							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
-							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
-						</div> 
-						<div class="clearfix"> </div>
-					</div><!-- //navbar-collapse --> 
+					@include('frontend.template.partials.menunav')
 				</div><!-- //container-fluid -->
 			</nav>
 		</div><!-- //header -->	
@@ -64,7 +48,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="slides">
 						<li>
 							<div class="banner-w3lstext">
-								<h3>Improve Your Crop!</h3>
+								<h3>Improve Your Crop !</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin</p>
 							</div>
 						</li>
@@ -308,7 +292,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-<!-- //bootstrap-pop-up -->
+	<!-- //bootstrap-pop-up -->
 
 	<!-- footer start here --> 
-	@include ('frontend.template.footer')
+	@include ('frontend.template.partials.footer')
+
+	@yield('scripts')
+
+	</body>
+</html>
