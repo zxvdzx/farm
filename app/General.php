@@ -20,6 +20,7 @@ class General
             $method = 'hasAnyAccess';
         }
 
+
         if ((bool) user_info('role')->is_super_admin) {
             // return true;
         }
