@@ -8,7 +8,7 @@
 				<li><a href="#0">Visi dan Misi</a></li>     
 			</ul>
 		</li>
-		<li><a href="#0" class="btn w3ls-hover">Program</a></li>   
+		<li><a href="{{ route('program')}}" class="btn w3ls-hover">Program</a></li>   
 		<li><a href="#0" class="btn w3ls-hover">Layanan</a></li>  
 		<li><a href="#0" class="btn w3ls-hover">Hubungi Kami</a></li>
 	</ul>	   

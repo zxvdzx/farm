@@ -26,6 +26,7 @@ class RepositoryServiceProvider extends ServiceProvider
         $models = [
             'Dashboard',
             'FrontendDashboard',
+            'ProgramDashboard',
             'AdminAuth',
             'Permission',
         ];
