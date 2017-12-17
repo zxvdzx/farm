@@ -38,7 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a href="{{route('/')}}"><i class="fa fa-pagelines" aria-hidden="true"></i>Sinergi</a></h1>
+						<h1><a href="{{route('dashboard')}}"><i class="fa fa-pagelines" aria-hidden="true"></i>Sinergi</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					@include('frontend.template.partials.menunav')
