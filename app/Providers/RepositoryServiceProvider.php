@@ -27,6 +27,7 @@ class RepositoryServiceProvider extends ServiceProvider
             'Dashboard',
             'FrontendDashboard',
             'ProgramDashboard',
+            'ContactDashboard',
             'AdminAuth',
             'Permission',
         ];

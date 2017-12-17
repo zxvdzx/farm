@@ -229,7 +229,10 @@ body a:hover{
 /*-- //social-icons --*/ 
 /*-- banner-text --*/ 
 .banner-text {
-    margin-top: 15em;
+    /*
+    edited
+     */
+    /*margin-top: 15em;*/
 }
 .banner-w3lstext {
     padding: 1em;

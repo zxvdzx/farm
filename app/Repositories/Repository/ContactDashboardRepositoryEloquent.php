@@ -5,7 +5,7 @@ namespace App\Repositories\Repository;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
 
-use App\Repositories\Contracts\ProgramDashboardRepository;
+use App\Repositories\Contracts\ContactDashboardRepository;
 // use App\Repositories\Entities\User; 
 
 // use DB;
@@ -13,7 +13,7 @@ use App\Repositories\Contracts\ProgramDashboardRepository;
 // use Input;
 // use Sentinel;
 
-class ProgramDashboardRepositoryEloquent extends BaseRepository implements ProgramDashboardRepository
+class ContactDashboardRepositoryEloquent extends BaseRepository implements ContactDashboardRepository
 {
   /**
    * Specify Model class name
@@ -53,6 +53,6 @@ class ProgramDashboardRepositoryEloquent extends BaseRepository implements Progr
 
 	public function getIndex()
   {
-		return view('frontend.program.program');
+		return view('frontend.contact.index');
 	}
 }
