@@ -10,7 +10,7 @@
 		</li>
 		<li><a href="{{ route('program')}}" class="btn w3ls-hover">Program</a></li>   
 		<li><a href="#0" class="btn w3ls-hover">Layanan</a></li>  
-		<li><a href="#0" class="btn w3ls-hover">Hubungi Kami</a></li>
+		<li><a href="{{ route('contact')}}" class="btn w3ls-hover">Hubungi Kami</a></li>
 	</ul>	   
 	<div class="social-icon">
 		<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
