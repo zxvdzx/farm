@@ -39,7 +39,7 @@
 		</div>
 	</div> 
 	
-	{!! Html::script( $pathp.'assets/js/jquery.flexslider.js') !!}
+	{!! Html::script( $pathp.'assets/frontend/js/jquery.flexslider.js') !!}
 	<script type="text/javascript">
 		$(window).load(function(){
 		  $('.flexslider').flexslider({
@@ -78,9 +78,9 @@
 				
 			});
 	</script>
-	{!! Html::script( $pathp.'assets/js/jquery.flexisel.js') !!}
-	{!! Html::script( $pathp.'assets/js/move-top.js') !!}
-	{!! Html::script( $pathp.'assets/js/easing.js') !!}
+	{!! Html::script( $pathp.'assets/frontend/js/jquery.flexisel.js') !!}
+	{!! Html::script( $pathp.'assets/frontend/js/move-top.js') !!}
+	{!! Html::script( $pathp.'assets/frontend/js/easing.js') !!}
 
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
@@ -101,4 +101,4 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
- {!! Html::script( $pathp.'assets/js/bootstrap.js') !!}
+ {!! Html::script( $pathp.'assets/frontend/js/bootstrap.js') !!}

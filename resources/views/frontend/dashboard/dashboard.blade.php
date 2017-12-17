@@ -11,21 +11,28 @@
 					<li>
 						<div class="banner-w3lstext">
 							<!-- <h3>Improve Your Crop !</h3> -->
-							<img src="{{ asset($pathp.'assets/backend/images/avatars/avatar.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
+							<img src="{{ asset($pathp.'assets/frontend/images/slide1.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin</p> -->
 						</div>
 					</li>
 					<li>
 						<div class="banner-w3lstext">
 							<!-- <h3>Lorem Ipsum Dolor Sit </h3> -->
-							<img src="{{ asset($pathp.'assets/backend/images/avatars/avatar.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
+							<img src="{{ asset($pathp.'assets/frontend/images/slide2.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
 							<!-- <p>Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. Lorem ipsum dolor sit amet elit consectetur adipiscing. Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin</p> -->
 						</div>
 					</li>
 					<li>
 						<div class="banner-w3lstext">
 							<!-- <h3>Mauris Ex Nulla Aliquam </h3> -->
-							<img src="{{ asset($pathp.'assets/backend/images/avatars/avatar.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
+							<img src="{{ asset($pathp.'assets/frontend/images/slide3.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
+							<!-- <p>Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. </p> -->
+						</div>
+					</li>
+					<li>
+						<div class="banner-w3lstext">
+							<!-- <h3>Mauris Ex Nulla Aliquam </h3> -->
+							<img src="{{ asset($pathp.'assets/frontend/images/slide4.png') }}" class="msg-photo img_slider" alt="Alex's Avatar" />
 							<!-- <p>Mauris ex nulla, aliquam ornare facilisis nec convallis pulvinar a non nunc non leo sollicitudin, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida mauris non mi gravida, at sollicitudin odio efficitur. </p> -->
 						</div>
 					</li>
