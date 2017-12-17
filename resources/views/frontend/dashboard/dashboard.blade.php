@@ -1,6 +1,6 @@
 @extends('frontend.template.template')
 
-@section('bannerClass', 'banner')
+@section('bannerClass', 'banner-1')
 
 @section('banner')
 <!-- banner-text -->
